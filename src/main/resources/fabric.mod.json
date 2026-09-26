@@ -1,0 +1,29 @@
+{
+    "schemaVersion": 1,
+    "id": "combatflow",
+    "version": "${version}",
+    "name": "CombatFlow",
+    "description": "A configurable client-side utility mod for Minecraft.",
+    "authors": [
+        "AlekIndomie"
+    ],
+    "contact": {
+        "sources": "https://github.com/AlekIndomie/CombatFlow"
+    },
+    "license": "MIT",
+    "environment": "client",
+    "entrypoints": {
+        "main": [
+            "dev.alekindomie.combatflow.CombatFlow"
+        ],
+        "client": [
+            "dev.alekindomie.combatflow.CombatFlowClient"
+        ]
+    },
+    "depends": {
+        "fabricloader": ">=0.19.5",
+        "minecraft": "~1.21.11",
+        "java": ">=21",
+        "fabric-api": "*"
+    }
+}
